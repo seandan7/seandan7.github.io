@@ -1,0 +1,129 @@
+body {
+	background: #660000;
+}
+
+/*---------------------------
+Main
+----------------------------*/
+.content-box {
+	background-color: #fff;
+	text-align: center;
+}
+.content-box h1 {
+	color: #b4b363;
+}
+
+#student-books-pic {
+	max-width: 788px;
+	display:block;
+	margin: 0 auto;
+}
+
+#fsu-spear {
+	position:relative;
+	top: 60px;
+	right: 7px;
+	display: block;
+	margin: 0 auto;
+}
+
+#home-paragraph {
+	max-width: 788px;
+	border-bottom: 1px solid #291d1f;
+	padding: 30px;
+}
+/*---------------------------
+Questions
+----------------------------*/
+
+.question-box {
+	background: #fff;
+	text-align: center;
+}
+
+.answers {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.answers button {
+	display: block;
+	margin: 0 auto;
+	border-radius: 20px;
+	background: #efefef;
+	width: 600px;
+	margin-top: 20px;
+}
+/*---------------------------
+Major Description
+----------------------------*/
+.major-description-box {
+	background-color: #fff;
+	color: #b4b363;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	
+}
+.major-description-box p {
+	color: #747474;
+	width: 100%;
+	font-size: 24px;
+}
+#psych-img {
+	width: 500px;
+}
+
+/*---------------------------
+Suggested Majors
+----------------------------*/
+.suggested-majors {
+	background-color: #fff;
+	color: #b4b363;
+	padding: 10px;
+}
+.suggested-majors ul {
+	list-style-image: url("images/list-circle.png")
+}
+.suggested-majors ul li a{
+	color: black;
+	position: relative;
+	bottom: 7px;
+}
+.suggested-majors button {
+	background: #b8b884;
+	width: 190px;
+	height: 78px;
+	color: #302d0e;
+}
+/*---------------------------
+Footer
+----------------------------*/
+.footer {
+	text-align: center;
+	color: #c07464;
+	padding: 10px;
+}
+
+.footer ul{
+	list-style-type: none;
+}
+
+.footer ul li {
+	display: inline;
+	border-left: 1px solid #c07464;
+	padding: 5px;
+}
+
+.footer ul li:first-child {
+	border-left: none;
+}
+
+.footer ul li a {
+	text-decoration: none;
+	color: #c07464;
+}
+
+.footer ul li a:hover {
+	color: #b4b363;
+}
