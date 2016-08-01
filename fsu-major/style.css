@@ -72,7 +72,7 @@ Major Description
 	font-size: 24px;
 }
 #psych-img {
-	max-width: 500px;
+	width: 500px;
 }
 
 /*---------------------------
@@ -137,5 +137,10 @@ Media Queries
 	}
 	#fsu-spear {
 		display: none;
+	}
+	#psych-img {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
 	}
 }
