@@ -14,7 +14,7 @@ Main
 }
 
 #student-books-pic {
-	max-width: 788px;
+	max-width: 50%;
 	display:block;
 	margin: 0 auto;
 }
@@ -52,6 +52,7 @@ Questions
 	border-radius: 20px;
 	background: #efefef;
 	width: 600px;
+	white-space: normal;
 	margin-top: 20px;
 }
 /*---------------------------
@@ -126,4 +127,15 @@ Footer
 
 .footer ul li a:hover {
 	color: #b4b363;
+}
+/*---------------------------
+Media Queries
+----------------------------*/
+@media (max-width: 655px) {
+	.answers button {
+	width: 300px;
+	}
+	#fsu-spear {
+		display: none;
+	}
 }
